@@ -300,6 +300,7 @@ a:active {
 
 .content-padded {
   margin: 10px;
+  float: auto;
 }
 
 .pull-left {
@@ -1435,6 +1436,11 @@ select {
 
 
 #mainContent{
-  text-align: justify;
+  
+  margin: 10 0 0 0;
+  
 }
 
+.center {
+    margin: auto;
+}

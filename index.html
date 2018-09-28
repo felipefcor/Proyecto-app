@@ -22,22 +22,87 @@
     <!-- Make sure all your bars are the first things in your <body> -->
     <!-- Popover-->
         <header class="bar bar-nav">
+        <h5 class="title">Centro de Fisioterapia</h5>
+
+  <!-- modal botón buscar-->
+
+  <a href="#modalBuscar" class="icon icon-search pull-left"></a>
+
+  <div id="modalBuscar" class="modal">
+    <header class="bar bar-nav">
+      <a class="icon icon-close pull-right" href="#modalBuscar"></a>
+      <h1 class="title">Buscar</h1>
+    </header>
+
           
-          <a class="icon icon-search pull-left"></a>
-            <a class="icon icon-gear pull-right"></a>
+ <div class="content"> 
 
+            <div class="segmented-control">
+              <a class="control-item active" href="#item1mobile">
+                Ganchos
+              </a>
+              <a class="control-item" href="#item2mobile">
+                Animales
+              </a>
+              <a class="control-item" href="#item3mobile">
+                Cita
+              </a>
+            </div>
 
-        <a href="#popover">
-          <h1 class="title">
-          Centro de Fisioterapia
-          <span class="icon icon-caret"></span>
-          </h1>
-        </a>
-      </header>
-    
-      <div id="popover" class="popover">
+            <div class="card">
+              <span id="item1mobile" class="control-content active">Ganchos</span>
+              <span id="item2mobile" class="control-content">Animales</span>
+              <span id="item3mobile" class="control-content">Cita</span>
+            </div>
+            <form>
+              <textarea class= "center" rows="5"></textarea>
+              <button class="btn btn-positive btn-block btn-outlined">Buscar</button>
+            </form>
+        </div>
+ </div>
+
+  <!-- modal botón ajustes-->
+
+  <a href="#modalAjustes" class="icon icon-gear pull-right"></a>
+
+  <div id="modalAjustes" class="modal">
         <header class="bar bar-nav">
-         <p id="mainContent">Gracias por acceder a la app de nuestro centro de Fisioterapia. Desde aquí podrás ver todos los servicios que ofrecemos, como también otras secciones como imágenes y vídeos con las técnicas que utilizamos. Además, podrás crearte una cuenta personalizada desde la que podrás reservar una cita y tener todos los datos de tus sesiones pasadas y futuras</p>
+        <a class="icon icon-close pull-right" href="#modalAjustes"></a>
+        <h1 class="title">Ajustes</h1>
+        </header>
+
+     
+   
+         <ul class="table-view">
+               <li class="table-view-cell">
+                Idioma
+                <button class="btn">Button</button></li>
+               </li>
+               <li class="table-view-cell">
+                 Item 2
+                  <div class="toggle">
+                  <div class="toggle-handle"></div>
+                </div>
+               </li>
+               <li class="table-view-cell">
+                Cerrar sesión
+                <div class="toggle active">
+                <div class="toggle-handle"></div>
+                </div>
+               </li>
+          </ul>
+
+        <div class="content-padded">
+          <button id= "botonGuardar" class="btn btn-positive btn-block">Guardar</button>
+        </div>
+
+      </div>
+
+    </div>            
+  
+
+
+             
 
         </header>
          
@@ -45,11 +110,14 @@
 
 
 
+
      
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
-      <img src="https://images.unsplash.com/photo-1514672013381-c6d0df1c8b18?ixlib=rb-0.3.5&s=2d6c4262761e367e15cc4c0675591fad&auto=format&fit=crop&w=1500&q=80" width="440" height="300">
+
+      
+      <img class="center" src="https://images.unsplash.com/photo-1514672013381-c6d0df1c8b18?ixlib=rb-0.3.5&s=2d6c4262761e367e15cc4c0675591fad&auto=format&fit=crop&w=1500&q=80" width="440" height="300">
 
      <!--  <p id="mainContent" class="content-padded">Gracias por acceder a la app de nuestro centro de Fisioterapia. Desde aquí podrás ver todos los servicios que ofrecemos, como también otras secciones como imágenes y vídeos con las técnicas que utilizamos. Además, podrás crearte una cuenta personalizada desde la que podrás reservar una cita y tener todos los datos de tus sesiones pasadas y futuras</p> -->
 
@@ -87,9 +155,9 @@
 
           <li class="table-view-cell">
              <a class="push-right">
-              <span class="media-object pull-left icon icon-home"></span>
+              <span class="media-object pull-left icon icon-edit"></span>
                  <div class="media-body">
-                    <strong>Contacto</strong>
+                    <strong>Pedir cita</strong>
                   </div>
             </a>
           </li>

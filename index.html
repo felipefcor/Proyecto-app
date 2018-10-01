@@ -28,38 +28,46 @@
 
   <a href="#modalBuscar" class="icon icon-search pull-left"></a>
 
-  <div id="modalBuscar" class="modal">
-    <header class="bar bar-nav">
-      <a class="icon icon-close pull-right" href="#modalBuscar"></a>
-      <h1 class="title">Buscar</h1>
-    </header>
+      <div id="modalBuscar" class="modal">
+        <header class="bar bar-nav">
+          <a class="icon icon-close pull-right" href="#modalBuscar"></a>
+          <h1 class="title">Buscar</h1>
+        </header>
 
-          
- <div class="content"> 
-
-            <div class="segmented-control">
-              <a class="control-item active" href="#item1mobile">
-                Ganchos
-              </a>
-              <a class="control-item" href="#item2mobile">
-                Animales
-              </a>
-              <a class="control-item" href="#item3mobile">
-                Cita
-              </a>
-            </div>
-
+              
+     <div class="content"> 
             <div class="card">
-              <span id="item1mobile" class="control-content active">Ganchos</span>
-              <span id="item2mobile" class="control-content">Animales</span>
-              <span id="item3mobile" class="control-content">Cita</span>
+                 <ul class="table-view">
+                  
+                  <li class="table-view-cell table-view-divider">Búsquedas más comunes</li>
+                 
+                </ul>
+
+                <div class="segmented-control">
+                  <a class="control-item active" href="#item1mobile">
+                    Ganchos
+                  </a>
+                  <a class="control-item" href="#item2mobile">
+                    Animales
+                  </a>
+                  <a class="control-item" href="#item3mobile">
+                    Cita
+                  </a>
+                </div>
+
+                <div class="card">
+                  <span id="item1mobile" class="control-content active">Ganchos</span>
+                  <span id="item2mobile" class="control-content">Animales</span>
+                  <span id="item3mobile" class="control-content">Cita</span>
+                </div>
+              </div>  
+                <form>
+                  <textarea rows="5"></textarea>
+                  <button class="btn btn-positive btn-block btn-outlined">Buscar</button>
+                </form>
+           
             </div>
-            <form>
-              <textarea class= "center" rows="5"></textarea>
-              <button class="btn btn-positive btn-block btn-outlined">Buscar</button>
-            </form>
-        </div>
- </div>
+     </div>
 
   <!-- modal botón ajustes-->
 
@@ -72,7 +80,7 @@
         </header>
 
       <div class="content"> 
-   
+    <div class="card">
          <ul class="table-view">
                <li class="table-view-cell">
                 Idioma
@@ -95,7 +103,7 @@
         <div class="content-padded">
           <button id= "botonGuardar" class="btn btn-positive btn-block">Guardar</button>
         </div>
-
+    </div>
       </div>
 
     </div> 
@@ -117,8 +125,9 @@
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
 
-      
-      <img class="center" src="https://images.unsplash.com/photo-1514672013381-c6d0df1c8b18?ixlib=rb-0.3.5&s=2d6c4262761e367e15cc4c0675591fad&auto=format&fit=crop&w=1500&q=80" width="440" height="300">
+      <div class="card">
+      <img  src="https://images.unsplash.com/photo-1514672013381-c6d0df1c8b18?ixlib=rb-0.3.5&s=2d6c4262761e367e15cc4c0675591fad&auto=format&fit=crop&w=1500&q=80" width="440" height="300">
+      </div>
 
      <!--  <p id="mainContent" class="content-padded">Gracias por acceder a la app de nuestro centro de Fisioterapia. Desde aquí podrás ver todos los servicios que ofrecemos, como también otras secciones como imágenes y vídeos con las técnicas que utilizamos. Además, podrás crearte una cuenta personalizada desde la que podrás reservar una cita y tener todos los datos de tus sesiones pasadas y futuras</p> -->
 
@@ -128,27 +137,18 @@
         <ul class="table-view">
           <li class="table-view-cell">
             <a class="push-right"</a>
-              <span class="media-object pull-left icon icon-compose"></span>
-                 <div class="media-body">
-                    <strong>Servicios</strong>
-                  </div>
-            </a>
-          </li>
-
-            
-
-          <li class="table-view-cell">
-             <a class="push-right">
               <span class="media-object pull-left icon icon-pages"></span>
                  <div class="media-body">
-                    <strong>Galería</strong>
+                    <strong>Servicios y especialidades</strong>
                   </div>
             </a>
           </li>
+
+                    
 
           <li class="table-view-cell">
             <a class="push-right">
-              <span class="media-object pull-left icon icon-info"></span>
+              <span class="media-object pull-left icon icon-person"></span>
                  <div class="media-body">
                     <strong>Nosotros</strong>
                   </div>
@@ -164,6 +164,26 @@
                   </div>
             </a>
           </li>
+
+          <li class="table-view-cell">
+             <a class="push-right">
+              <span class="media-object pull-left icon icon-sound"></span>
+                 <div class="media-body">
+                    <strong>Blog</strong>
+                  </div>
+            </a>
+          </li>
+
+
+                 <li class="table-view-cell">
+             <a class="push-right">
+              <span class="media-object pull-left icon icon-share"></span>
+                 <div class="media-body">
+                    <strong>Galería</strong>
+                  </div>
+            </a>
+          </li>
+
 
         </ul>
       </div>

@@ -23,6 +23,8 @@ En la cabecera hay dos iconos a ambos lados. El de la izquierda es el de buscar.
 
 En la parte central tenemos el resto de opciones. En primer lugar, una imagen que puede ser corporativa. Debajo de esta imagen está el menú principal de la aplicación, donde podemos encontrar los servicios y especialidades que se ofrecen; una sección sobre los profesionales del centro; una sección desde donde pedir cita; un apartado con un blog y noticias que se generan; por último, hay una sección de imágenes en las que añadir imágenes variadas. secciones.
 
+En cada sección hay un icono a la derecha en el que[ se accede a otra página](http://goratchet.com/one.html#push) con más información.
+
 
 **Búsqueda en la página principal**
 
